@@ -1,0 +1,51 @@
+.underline{
+    text-decoration: underline;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.round-button{
+    border: 0.5px solid rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0);
+}
+.round-button:hover{
+    border: 0.5px solid rgb(94, 94, 94);
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px 2px grey;
+
+}
+
+.no-active-tasks{
+    background: rgb(184, 255, 177);
+    border: 2px solid rgb(92, 255, 92) ;
+    border-radius: 20px;
+}
+
+.btn-primary{
+    background-color: #35858B;
+}
+.bg-main{
+    background-color: #AEFEFF;
+}
+.bg-sec{
+    background-color: #AEFEFF;
+}
+
+
+.active{
+    background: rgba(248, 255, 183,0.7);
+    border: 1px solid rgba(248, 255, 183,1);
+    border-radius: 3px;
+}
+.done{
+    background: rgba(183, 255, 183, 0.7);
+    border: 1px solid rgba(183, 255, 183,1);
+    border-radius: 3px;
+}
+.delayed{
+    background: rgba(253, 196, 174, 0.7);
+    border: 1px solid rgba(253, 196, 174,1);
+    border-radius: 3px;
+} 
